@@ -79,4 +79,229 @@
       </div>
       <div class="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4">
         <div class="sp-card rounded-2xl bg-white/10 p-4"><p class="font-semibold">Any Condition</p><p class="text-sm text-slate-200">Inherited, tenants, deferred maintenance — we’ll take a look.</p></div>
-        <div class="sp-card rounded-2xl bg-white/10 p-4"><p class="font-semib
+        <div class="sp-card rounded-2xl bg-white/10 p-4"><p class="font-semibold">No Fees, No Commissions</p><p class="text-sm text-slate-200">What we offer is what you net at closing.</p></div>
+        <div class="sp-card rounded-2xl bg-white/10 p-4"><p class="font-semibold">Utah-Based</p><p class="text-sm text-slate-200">Local team that understands Wasatch Front neighborhoods.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sell Form -->
+  <section id="sell" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-12 items-start">
+        <div>
+          <h2 class="text-3xl font-bold tracking-tight">Sell Your House Fast</h2>
+          <p class="mt-4 text-slate-600">Skip repairs, showings, and uncertainty. Tell us a bit about the property and your timeline — we’ll reach out with a honest cash offer.</p>
+          <ul class="mt-6 space-y-2 text-slate-700 list-disc ml-5">
+            <li>Close in as little as 7–14 days</li>
+            <li>No cleaning or repairs needed</li>
+            <li>We handle title & escrow with trusted Utah companies</li>
+          </ul>
+        </div>
+        <form id="sellerForm" class="sp-card bg-white rounded-2xl p-6 border border-slate-200">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div><label for="s_name" class="block text-sm font-medium">Full Name</label><input id="s_name" name="name" required class="mt-1 w-full rounded-lg border-slate-300 focus:border-sp-gold focus:ring-sp-gold" /></div>
+            <div><label for="s_phone" class="block text-sm font-medium">Phone</label><input id="s_phone" name="phone" type="tel" required class="mt-1 w-full rounded-lg border-slate-300 focus:border-sp-gold focus:ring-sp-gold" /></div>
+            <div class="sm:col-span-2"><label for="s_email" class="block text-sm font-medium">Email</label><input id="s_email" name="email" type="email" class="mt-1 w-full rounded-lg border-slate-300 focus:border-sp-gold focus:ring-sp-gold" /></div>
+            <div class="sm:col-span-2"><label for="s_address" class="block text-sm font-medium">Property Address</label><input id="s_address" name="address" required class="mt-1 w-full rounded-lg border-slate-300 focus:border-sp-gold focus:ring-sp-gold" /></div>
+            <div class="sm:col-span-2"><label for="s_reason" class="block text-sm font-medium">Reason for Selling (optional)</label><textarea id="s_reason" name="reason" rows="3" class="mt-1 w-full rounded-lg border-slate-300 focus:border-sp-gold focus:ring-sp-gold"></textarea></div>
+          </div>
+          <button type="submit" class="mt-6 w-full rounded-xl bg-sp-gold text-slate-900 font-semibold px-6 py-3 hover:brightness-95">Get My Cash Offer</button>
+          <p class="mt-3 text-xs text-slate-500">By submitting, you agree to be contacted by Summit Peak Properties.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Buy / Investor Form -->
+  <section id="buy" class="py-20 bg-sp-light">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-12 items-start">
+        <form id="buyerForm" class="sp-card bg-white rounded-2xl p-6 border border-slate-200 order-2 lg:order-1">
+          <h2 class="text-2xl font-semibold">Join Our Investor List</h2>
+          <p class="mt-1 text-sm text-slate-600">Get exclusive off-market Utah deals in your inbox.</p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+            <div><label for="b_name" class="block text-sm font-medium">Full Name</label><input id="b_name" name="name" required class="mt-1 w-full rounded-lg border-slate-300 focus:border-sp-gold focus:ring-sp-gold" /></div>
+            <div><label for="b_email" class="block text-sm font-medium">Email</label><input id="b_email" name="email" type="email" required class="mt-1 w-full rounded-lg border-slate-300 focus:border-sp-gold focus:ring-sp-gold" /></div>
+            <div class="sm:col-span-2"><label for="b_criteria" class="block text-sm font-medium">Buying Criteria</label><input id="b_criteria" name="criteria" placeholder="e.g., SFR, $200–450k, SLC/Ogden, 3+ beds" class="mt-1 w-full rounded-lg border-slate-300 focus:border-sp-gold focus:ring-sp-gold" /></div>
+          </div>
+          <button type="submit" class="mt-6 w-full rounded-xl bg-sp-gold text-slate-900 font-semibold px-6 py-3 hover:brightness-95">Join the List</button>
+          <p class="mt-3 text-xs text-slate-500">We respect your inbox. Unsubscribe anytime.</p>
+        </form>
+        <div class="order-1 lg:order-2">
+          <h2 class="text-3xl font-bold tracking-tight">Exclusive Off-Market Deals</h2>
+          <p class="mt-4 text-slate-600">We source distressed and value-add properties across the Wasatch Front. Serious buyers get first look, clean comps, and transparent numbers.</p>
+          <ul class="mt-6 space-y-2 text-slate-700 list-disc ml-5">
+            <li>Fix & flip and BRRRR opportunities</li>
+            <li>Clear assignment terms or double close options</li>
+            <li>Investor-friendly title & escrow</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Past Deals -->
+  <section id="deals" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold tracking-tight">Past Deals & Sample Numbers</h2>
+      <p class="mt-2 text-slate-600">Real examples to show how we underwrite and what investors can expect.</p>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <article class="sp-card rounded-2xl overflow-hidden border border-slate-200 bg-white">
+          <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1200&auto=format&fit=crop" alt="Renovated home" class="h-40 w-full object-cover" />
+          <div class="p-5"><h3 class="font-semibold">South Salt Lake Flip</h3>
+            <ul class="mt-2 text-sm text-slate-600 space-y-1">
+              <li><strong>ARV:</strong> $480,000</li><li><strong>Asking:</strong> $330,000</li><li><strong>Est. Repairs:</strong> $60,000</li><li><strong>Projected Profit:</strong> ~$70,000</li>
+            </ul>
+          </div>
+        </article>
+        <article class="sp-card rounded-2xl overflow-hidden border border-slate-200 bg-white">
+          <img src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c52f?q=80&w=1200&auto=format&fit=crop" alt="Rental property" class="h-40 w-full object-cover" />
+          <div class="p-5"><h3 class="font-semibold">Ogden Rental</h3>
+            <ul class="mt-2 text-sm text-slate-600 space-y-1">
+              <li><strong>ARV:</strong> $360,000</li><li><strong>Asking:</strong> $255,000</li><li><strong>Rent:</strong> ~$2,200/mo</li><li><strong>Cap Rate:</strong> 10%+</li>
+            </ul>
+          </div>
+        </article>
+        <article class="sp-card rounded-2xl overflow-hidden border border-slate-200 bg-white">
+          <img src="https://images.unsplash.com/photo-1600607687920-4ce9ce7a2d88?q=80&w=1200&auto=format&fit=crop" alt="Brick home" class="h-40 w-full object-cover" />
+          <div class="p-5"><h3 class="font-semibold">Provo Cosmetic</h3>
+            <ul class="mt-2 text-sm text-slate-600 space-y-1">
+              <li><strong>ARV:</strong> $520,000</li><li><strong>Asking:</strong> $370,000</li><li><strong>Est. Repairs:</strong> $25,000</li><li><strong>Projected Profit:</strong> ~$95,000</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20 bg-sp-light">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-3xl font-bold tracking-tight">About Summit Peak Properties</h2>
+          <p class="mt-4 text-slate-700">We’re a Utah-based buyer and wholesaler helping homeowners solve problems quickly and giving investors clean, well-underwritten opportunities. We prioritize transparency, fair dealing, and smooth closings with investor-friendly title companies.</p>
+          <div class="mt-6 grid grid-cols-3 gap-4 text-center">
+            <div class="sp-card bg-white rounded-xl p-4 border border-slate-200"><p class="text-3xl font-bold">7–14</p><p class="text-xs text-slate-600">Day Closings</p></div>
+            <div class="sp-card bg-white rounded-xl p-4 border border-slate-200"><p class="text-3xl font-bold">100%</p><p class="text-xs text-slate-600">No Fees</p></div>
+            <div class="sp-card bg-white rounded-xl p-4 border border-slate-200"><p class="text-3xl font-bold">Utah</p><p class="text-xs text-slate-600">Local Focus</p></div>
+          </div>
+        </div>
+        <div class="sp-card bg-white rounded-2xl p-6 border border-slate-200">
+          <h3 class="font-semibold">What Sellers Say</h3>
+          <p class="mt-2 text-slate-600">“They made it simple. Cash offer, quick close, and great communication.”</p>
+          <div class="mt-6 h-48 bg-slate-100 rounded-xl flex items-center justify-center text-slate-400">Add your testimonial photo here</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Footer -->
+  <footer id="contact" class="bg-sp-dark text-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 grid md:grid-cols-3 gap-10">
+      <div><h3 class="text-lg font-semibold">Summit Peak Properties</h3><p class="mt-2 text-slate-300">Utah-based home buyer & investor network.</p></div>
+      <div><h4 class="text-sm font-semibold">Contact</h4>
+        <ul class="mt-2 text-slate-300 text-sm">
+          <li>Phone: <a href="tel:+1" class="hover:underline">[Your Phone]</a></li>
+          <li>Email: <a href="mailto:info@summitpeakprops.com" class="hover:underline">[Your Email]</a></li>
+          <li>Office: Wasatch Front, Utah</li>
+        </ul>
+      </div>
+      <div><h4 class="text-sm font-semibold">Quick Links</h4>
+        <ul class="mt-2 text-slate-300 text-sm">
+          <li><a href="#sell" class="hover:underline">Get a Cash Offer</a></li>
+          <li><a href="#buy" class="hover:underline">Join Investor List</a></li>
+          <li><a href="#deals" class="hover:underline">Past Deals</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-slate-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-xs text-slate-400 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+        <p>© <span id="year"></span> Summit Peak Properties. All rights reserved.</p>
+        <p>We are not real estate brokers. We buy, sell, and assign contracts as principals. All deals subject to due diligence and clear title.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Legal Sections -->
+  <section id="privacy" class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-bold">Privacy Policy</h2>
+      <p class="mt-3 text-slate-700">We only use the information you submit to evaluate your property or send investor deals. We never sell your data. To request removal or an export of your data, email <a class="underline" href="mailto:info@summitpeakprops.com">info@summitpeakprops.com</a>.</p>
+      <ul class="mt-4 list-disc ml-5 text-slate-700">
+        <li><strong>Data collected:</strong> name, phone, email, address, details you provide.</li>
+        <li><strong>Use:</strong> contact you about a cash offer or send off-market deals.</li>
+        <li><strong>Cookies/analytics:</strong> disclosed here if enabled in the future.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="terms" class="py-16 bg-sp-light">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-bold">Terms of Use</h2>
+      <p class="mt-3 text-slate-700">By using this site, you agree that Summit Peak Properties acts as a principal buyer/seller and may assign purchase contracts. All offers are subject to due diligence and clear title. Nothing on this site is financial or legal advice. Utah law governs any disputes.</p>
+      <ul class="mt-4 list-disc ml-5 text-slate-700">
+        <li>Deals are first-come, first-served and subject to verification.</li>
+        <li>Assignment fees and profits disclosed via closing statements in double closes or upon request.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Success Section -->
+  <section id="success" class="py-24 bg-white hidden">
+    <div class="max-w-2xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold">Thanks! We got your submission.</h2>
+      <p class="mt-3 text-slate-600">We’ll reach out shortly. If this is urgent, call us at [Your Phone].</p>
+      <a href="#top" class="inline-flex mt-6 rounded-xl border border-slate-300 px-6 py-3">Back to home</a>
+    </div>
+  </section>
+
+  <script>
+    // Mobile menu toggle + current year
+    document.getElementById('menuBtn').addEventListener('click', () => { document.getElementById('mobileMenu').classList.toggle('hidden'); });
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Webhook endpoints (replace both with your Zapier/Apps Script URLs)
+    const SELLER_ENDPOINT = "YOUR_WEBHOOK_URL";
+    const BUYER_ENDPOINT  = "YOUR_WEBHOOK_URL";
+
+    async function postJSON(url, payload) {
+      const res = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
+      if (!res.ok) throw new Error('Network error');
+      return res.json().catch(() => ({ ok: true }));
+    }
+
+    function showSuccess() {
+      document.getElementById('success').classList.remove('hidden');
+      window.location.hash = '#success';
+    }
+
+    function wireForm(formId, endpoint, source) {
+      const form = document.getElementById(formId);
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const data = Object.fromEntries(new FormData(form).entries());
+        data.source = source;
+        data.timestamp = new Date().toISOString();
+        if (!endpoint || endpoint.includes('YOUR_WEBHOOK_URL')) {
+          alert('Heads up: replace YOUR_WEBHOOK_URL with your Google Sheets/Zapier webhook, then re-deploy.');
+          return;
+        }
+        try {
+          await postJSON(endpoint, data);
+          form.reset();
+          showSuccess();
+        } catch (err) {
+          console.error(err);
+          alert('Submission failed — please call or email us and we\'ll help right away.');
+        }
+      });
+    }
+
+    wireForm('sellerForm', SELLER_ENDPOINT, 'seller');
+    wireForm('buyerForm',  BUYER_ENDPOINT,  'buyer');
+  </script>
+</body>
+</html>
+
