@@ -263,8 +263,8 @@
     document.getElementById('year').textContent = new Date().getFullYear();
 
     // Webhook endpoints (replace both with your Zapier/Apps Script URLs)
-    const SELLER_ENDPOINT = "https://script.google.com/macros/s/AKfycbx-OcCskJSPRcvZtoHGK97Q-1F5_8yFAiF5H16E2CrFRK4wPv29FoIKRg5O4cdP6sk/exec";
-    const BUYER_ENDPOINT  = "https://script.google.com/macros/s/AKfycbx-OcCskJSPRcvZtoHGK97Q-1F5_8yFAiF5H16E2CrFRK4wPv29FoIKRg5O4cdP6sk/exec";
+    const SELLER_ENDPOINT = "https://script.google.com/macros/s/AKfycbxCRKOyOvnVzJmN_NsRk2b0hORDeK2ESXYNFe7pBLZHMO8R0M94IM-bSMso9QWeTso/exec";
+    const BUYER_ENDPOINT  = "https://script.google.com/macros/s/AKfycbxCRKOyOvnVzJmN_NsRk2b0hORDeK2ESXYNFe7pBLZHMO8R0M94IM-bSMso9QWeTso/exec";
 
     async function postJSON(url, payload) {
       const res = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
