@@ -1,30 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Summit Peak Properties</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Summit Peak Properties — We Buy Utah Houses Fast</title>
+  <meta name="description" content="Summit Peak Properties buys Utah houses fast for cash and shares off-market deals with serious investors. No repairs. No fees. Close in as little as 7 days." />
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            sp: { dark: '#0f172a', gold: '#fbbf24', light: '#f8fafc' }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Brand font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    .sp-card { box-shadow: 0 10px 25px rgba(2,6,23,0.08); }
+  </style>
 </head>
-<body>
-<h1>Summit Peak Properties</h1>
-<p>We buy Utah houses fast and connect investors with off-market deals.</p>
+<body class="bg-sp-light text-slate-800">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
+      <a href="#top" class="flex items-center gap-3">
+        <!-- Swap src with your hosted logo if desired -->
+        <img src="https://images.unsplash.com/photo-1529336953121-e87ac1bbee37?q=80&w=300&auto=format&fit=crop" alt="Summit Peak Properties logo" class="h-9 w-9 rounded-md object-cover" />
+        <span class="font-semibold tracking-tight text-xl">Summit Peak Properties</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#sell" class="hover:text-sp-gold">Sell</a>
+        <a href="#buy" class="hover:text-sp-gold">Buy</a>
+        <a href="#deals" class="hover:text-sp-gold">Past Deals</a>
+        <a href="#about" class="hover:text-sp-gold">About</a>
+        <a href="#contact" class="hover:text-sp-gold">Contact</a>
+        <a href="#privacy" class="hover:text-sp-gold">Privacy</a>
+        <a href="#terms" class="hover:text-sp-gold">Terms</a>
+      </nav>
+      <div class="md:hidden"><button id="menuBtn" aria-label="Open Menu" class="p-2 rounded-lg border border-slate-300">☰</button></div>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden border-t border-slate-200 bg-white">
+      <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col gap-3 text-sm">
+        <a href="#sell" class="py-1">Sell</a>
+        <a href="#buy" class="py-1">Buy</a>
+        <a href="#deals" class="py-1">Past Deals</a>
+        <a href="#about" class="py-1">About</a>
+        <a href="#contact" class="py-1">Contact</a>
+        <a href="#privacy" class="py-1">Privacy</a>
+        <a href="#terms" class="py-1">Terms</a>
+      </div>
+    </div>
+  </header>
 
-<h2>Seller Form</h2>
-<form id="sellerForm" method="POST" action="YOUR_WEBHOOK_URL">
-  <label>Name: <input type="text" name="name" required></label><br>
-  <label>Phone: <input type="tel" name="phone" required></label><br>
-  <label>Email: <input type="email" name="email"></label><br>
-  <label>Property Address: <input type="text" name="address" required></label><br>
-  <label>Reason for Selling: <textarea name="reason"></textarea></label><br>
-  <button type="submit">Get My Cash Offer</button>
-</form>
-
-<h2>Buyer Form</h2>
-<form id="buyerForm" method="POST" action="YOUR_WEBHOOK_URL">
-  <label>Name: <input type="text" name="name" required></label><br>
-  <label>Email: <input type="email" name="email" required></label><br>
-  <label>Buying Criteria: <input type="text" name="criteria"></label><br>
-  <button type="submit">Join the List</button>
-</form>
-
-</body>
-</html>
+  <!-- Hero -->
+  <section id="top" class="relative">
+    <div class="absolute inset-0 -z-10">
+      <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop" alt="Utah mountains" class="w-full h-full object-cover" />
+      <div class="absolute inset-0 bg-slate-900/60"></div>
+    </div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28 text-white">
+      <h1 class="text-4xl sm:text-5xl font-bold leading-tight">We Buy Utah Houses Fast — Any Condition</h1>
+      <p class="mt-4 text-lg max-w-2xl text-slate-200">No repairs. No agent fees. Close in as little as 7 days. We also send exclusive off-market deals to serious investors.</p>
+      <div class="mt-8 flex flex-wrap gap-4">
+        <a href="#sell" class="inline-flex items-center justify-center rounded-xl bg-sp-gold text-slate-900 font-semibold px-6 py-3 shadow hover:brightness-95">Get a Cash Offer</a>
+        <a href="#buy" class="inline-flex items-center justify-center rounded-xl border border-white px-6 py-3 font-semibold hover:bg-white/10">Join Investor List</a>
+      </div>
+      <div class="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div class="sp-card rounded-2xl bg-white/10 p-4"><p class="font-semibold">Any Condition</p><p class="text-sm text-slate-200">Inherited, tenants, deferred maintenance — we’ll take a look.</p></div>
+        <div class="sp-card rounded-2xl bg-white/10 p-4"><p class="font-semib
